@@ -8,7 +8,6 @@
 </head>
 <body>
     <div class="container">
-        <img src="images/self-image.png" alt="me" class="self-image">
         <div class="header">
             <h1>Isaiah Strouse</h1>
             <h3>Web Developer</h3>
@@ -19,5 +18,14 @@
             <p>From my time in the military, you will notice I bring a genuine willingness to learn and a strong work ethic to the table, eager to immerse myself in new challenges and contribute to the success of any team I join. Let's connect and bring digital dreams to life together!</p>
         </div>
     </div>
+
+    <p>Send me a message!</p>
+    <form id="contact-form" action="contact.php" method="post">
+        <input type="text" name="name" placeholder="Your Name">
+        <input type="text" name="mail" placeholder="Your E-mail">
+        <input type="text" name="subject" placeholder="Subject">
+        <textarea name="message" placeholder="Message"></textarea>
+        <button type="submit" name="submit">Submit</button>
+    </form>
 </body>
 </html>
