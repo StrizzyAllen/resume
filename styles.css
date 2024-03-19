@@ -11,9 +11,9 @@ header {
 }
 
 .container {
-    max-width: 960px;
+    max-width: auto;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 nav ul {
@@ -29,9 +29,9 @@ nav ul li {
 
 nav ul li a {
     color: #fff;
-    text-decoration: none;
+    text-decoration:solid;
 }
 
 section {
-    padding: 50px 0;
+    padding: 25px 0;
 }
