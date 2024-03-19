@@ -7,7 +7,7 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .container {
@@ -17,6 +17,7 @@ header {
 }
 
 nav ul {
+    overflow: hidden;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -28,10 +29,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration:solid;
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
 }
 
 section {
-    padding: 25px 0;
+    padding: 15px 0;
 }
